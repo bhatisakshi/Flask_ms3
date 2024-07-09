@@ -1,0 +1,7 @@
+flask (>=2.2.2)
+flask-restx (>=0.5.1)
+Flask-SQLAlchemy==2.4.0
+alembic (>=1.8.4)
+grpcio (>=1.44.0)
+Flask-JWT-Extended (>=4.3.2.3)
+Werkzeug(>=2.2.0)
