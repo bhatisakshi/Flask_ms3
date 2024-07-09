@@ -89,8 +89,4 @@ The application will be available at http://127.0.0.1:5001/
 - PUT /recipeingredients/recipeingredient/int:recipeingredint_id: Update a recipeingredient by recipeingredint_id
 - DELETE /recipeingredients/recipeingredient/int:recipeingredint_id: Delete a recipeingredient by recipeingredint_id
 
-## Testing
-To run the tests, use pytest:
-```bash
-pytest
-```
+
