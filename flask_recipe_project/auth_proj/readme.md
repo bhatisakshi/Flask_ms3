@@ -49,9 +49,3 @@ The application will be available at http://127.0.0.1:5000/
 - POST /authentication/login: Log in a user
 - POST /authentication/logout: Log out a user
 - POST /authentication/protected: For verifying token
-
-## Testing
-To run the tests, use pytest:
-```bash
-pytest
-```
