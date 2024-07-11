@@ -1,12 +1,10 @@
 # gRPC Servcie
-This gRPC service acts as a communication layer between the Authentication service and the RecipeManager. It facilitates:
+This gRPC service acts as a communication layer between the Authentication service and the RecipeManager.
+
+## Features
 - Sending token verification request from RecipeManager(Client) 
 - Recieving token verification request and returning response(success flag, user_id)
 - Error handling and efficient logging for request - sending, recieving and exceptions
-
-
-## Features
-- Communication between two projects(recipemanager and authentication) for token verification request and success flag, user_id response
   
 ## Installation
 
@@ -45,7 +43,7 @@ python auth_server.py
 The application will be available at localhost:50051
 
 
-## Proto Buffers (if applicable)
+## Proto Buffers (if required)
 ```bash
 [protoc --proto_path=./protos --python_out=build/gen src/foo.proto src/bar/baz./protos](https://github.com/bhatisakshi/Flask_ms3.git)
 ```
