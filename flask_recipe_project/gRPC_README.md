@@ -6,9 +6,7 @@ This gRPC service acts as a communication layer between the Authentication servi
 
 
 ## Features
-- User registration
-- User login and logout
-- Protected view for token verification
+- Communication between two projects(recipemanager and authentication) for token verification request and success flag, user_id response
   
 ## Installation
 
@@ -16,11 +14,9 @@ This gRPC service acts as a communication layer between the Authentication servi
 - Python 3.10 or higher
 - Virtual environment tool
 - Authentication Service: 
-Ensure you have a running instance of the authentication service accessible to this gRPC service. Specify any requirements for interacting with the authentication service (e.g., API endpoint URLs).
+  Ensure you have a running instance of the authentication service accessible to this gRPC service. Specify any requirements for interacting with the authentication service (e.g., API endpoint URLs).
 - Recipe Manager Service: 
-Ensure you have a running instance of the recipe manager service accessible to this gRPC service. Specify any requirements for interacting with the recipe manager service (e.g., gRPC server addresses).
-gRPC Libraries: Install the necessary gRPC libraries for Python: pip install grpcio grpcio-tools
-Installation
+  Ensure you have a running instance of the recipe manager service accessible to this gRPC service. Specify any requirements for interacting with the recipe manager service (e.g., gRPC server addresses).
 
 **Clone the repository:**
 ```bash
