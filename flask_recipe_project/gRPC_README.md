@@ -51,5 +51,5 @@ The application will be available at localhost:50051
 
 ## Proto Buffers (if applicable)
 ```bash
-protoc --proto_path=./protos --python_out=build/gen src/foo.proto src/bar/baz./protos
+[protoc --proto_path=./protos --python_out=build/gen src/foo.proto src/bar/baz./protos](https://github.com/bhatisakshi/Flask_ms3.git)
 ```
