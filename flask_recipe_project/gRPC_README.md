@@ -12,9 +12,9 @@ This gRPC service acts as a communication layer between the Authentication servi
 - Python 3.10 or higher
 - Virtual environment tool
 - Authentication Service: 
-  Ensure you have a running instance of the authentication service accessible to this gRPC service. Specify any requirements for interacting with the authentication service (e.g., API endpoint URLs).
+  Ensure you have a running instance of the authentication service accessible to this gRPC service.
 - Recipe Manager Service: 
-  Ensure you have a running instance of the recipe manager service accessible to this gRPC service. Specify any requirements for interacting with the recipe manager service (e.g., gRPC server addresses).
+  Ensure you have a running instance of the recipe manager service accessible to this gRPC service. 
 
 **Clone the repository:**
 ```bash
@@ -45,5 +45,5 @@ The application will be available at localhost:50051
 
 ## Proto Buffers (if required)
 ```bash
-[protoc --proto_path=./protos --python_out=build/gen src/foo.proto src/bar/baz./protos](https://github.com/bhatisakshi/Flask_ms3.git)
+ python3 -m grpc_tools.protoc -I ./protos --python_out=. --pyi_out=. --grpc_python_out=. ./protos/auth.proto
 ```
