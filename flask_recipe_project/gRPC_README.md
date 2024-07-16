@@ -1,4 +1,4 @@
-# gRPC Servcie
+# gRPC Service
 This gRPC service acts as a communication layer between the Authentication service and the RecipeManager.
 
 ## Features
